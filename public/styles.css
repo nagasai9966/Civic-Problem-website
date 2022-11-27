@@ -1,0 +1,95 @@
+body {
+    background-color: bisque;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.heading {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00005C;
+}
+
+img {
+    height: 500px;
+    width: 500px;
+    border:4px solid #00005C ;
+    border-radius: 10px;;
+}
+
+button {
+    height: 35px;
+    width: 200px;
+    background-color: #00005C ;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.main {
+    height: auto;
+    width: 100%;
+}
+
+.inner {
+    width: 80%;
+    height: 580px;
+    border: 1px solid white;
+    box-shadow: 0 0 10px black;
+    margin: 30px auto 30px auto;
+}
+
+.welcome {
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    font-family: cursive;
+    border-bottom: 1px solid black;
+    background-color: black;
+    color: white;
+}
+
+.rleft_body {
+    width: 50%;
+    float: left;
+    margin-top: 90px;
+}
+
+.rleft_body label {
+    font-size: 20px;
+    font-style: oblique;
+    padding: 150px;
+    line-height: 2.5;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.rright_body {
+    width: 50%;
+    float: left;
+    margin-top: 100px;
+}
+
+.rright_body input {
+    font-size: 20px;
+    font-style: oblique;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.registration_submit {
+    clear: both;
+    height: auto;
+    text-align: center;
+}
+
+#save {
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    padding: 5px 35px 5px 35px;
+    border: none;
+    margin-top: 80px;
+}
